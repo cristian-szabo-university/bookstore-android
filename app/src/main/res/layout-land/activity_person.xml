@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layoutPerson"
+    android:padding="25dp">
+
+    <ImageView
+        android:layout_width="@dimen/person_avatar_width_land"
+        android:layout_height="@dimen/person_avatar_height_land"
+        android:id="@+id/imgAvatar"
+        android:src="@mipmap/ic_person"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/txtFullName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome, Member!"
+        android:id="@+id/txtTitle"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="15dp"
+        android:textSize="@dimen/person_title_land" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Full Name"
+        android:id="@+id/txtFullName"
+        android:layout_below="@+id/txtTitle"
+        android:layout_toEndOf="@+id/imgAvatar"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="@dimen/person_full_name_land" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Date of Birth"
+        android:id="@+id/txtBirthDate"
+        android:layout_below="@+id/txtFullName"
+        android:layout_toEndOf="@+id/imgAvatar"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="@dimen/person_birth_date_land" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Gender"
+        android:id="@+id/txtGender"
+        android:layout_below="@+id/txtBirthDate"
+        android:layout_toEndOf="@+id/imgAvatar"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="@dimen/person_gender_land" />
+</RelativeLayout>

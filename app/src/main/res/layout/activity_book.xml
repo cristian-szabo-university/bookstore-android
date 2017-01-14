@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ActivityBook"
+    android:padding="25dp"
+    android:id="@+id/layoutBook">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Title"
+        android:id="@+id/txtTitle"
+        android:width="500dp"
+        android:gravity="center_horizontal"
+        android:editable="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="25dp"
+        android:textSize="@dimen/book_title_port"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="@dimen/book_cover_width_port"
+        android:layout_height="@dimen/book_cover_height_port"
+        android:id="@+id/imgCover"
+        android:src="@mipmap/ic_book"
+        android:layout_below="@+id/txtPublish"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Author"
+        android:id="@+id/txtAuthor"
+        android:paddingRight="10dp"
+        android:layout_below="@+id/txtTitle"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginBottom="5dp"
+        android:layout_alignEnd="@+id/txtPublish"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/book_author_port" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Published"
+        android:id="@+id/txtPublish"
+        android:paddingRight="10dp"
+        android:layout_below="@+id/txtAuthor"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/book_publish_port" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Description"
+        android:id="@+id/txtDesc"
+        android:layout_below="@+id/imgCover"
+        android:layout_alignParentStart="true"
+        android:lines="5"
+        android:layout_marginTop="15dp"
+        android:scrollIndicators="right"
+        android:textSize="@dimen/book_desc_port"
+        android:layout_alignEnd="@+id/txtStatus" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Rent status"
+        android:id="@+id/txtStatus"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="@dimen/book_status_port"
+        android:textColor="#f6ff7e" />
+
+</RelativeLayout>

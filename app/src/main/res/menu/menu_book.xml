@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_rent_create" android:title="New Rent" />
+    <item android:id="@+id/action_rent_extend" android:title="Extend Rent" />
+    <item android:id="@+id/action_rent_finish" android:title="Return Book" />
+    <item android:id="@+id/action_book_edit" android:title="Edit Book" />
+    <item android:id="@+id/action_book_remove" android:title="Remove Book" />
+</menu>

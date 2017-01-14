@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ActivityPerson"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:padding="25dp"
+    android:id="@+id/layoutPerson">
+
+    <ImageView
+        android:layout_width="@dimen/person_avatar_width_port"
+        android:layout_height="@dimen/person_avatar_height_port"
+        android:id="@+id/imgAvatar"
+        android:src="@mipmap/ic_person"
+        android:layout_below="@+id/txtGender"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome, Member!"
+        android:id="@+id/txtTitle"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:textSize="@dimen/person_title_port" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Full Name"
+        android:id="@+id/txtFullName"
+        android:layout_below="@+id/txtTitle"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="5dp"
+        android:textSize="@dimen/person_full_name_port" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Date of Birth"
+        android:id="@+id/txtBirthDate"
+        android:layout_below="@+id/txtFullName"
+        android:layout_alignStart="@+id/txtFullName"
+        android:layout_marginBottom="5dp"
+        android:textSize="@dimen/person_birth_date_port" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Gender"
+        android:id="@+id/txtGender"
+        android:layout_below="@+id/txtBirthDate"
+        android:layout_alignStart="@+id/txtBirthDate"
+        android:layout_marginBottom="15dp"
+        android:textSize="@dimen/person_gender_port" />
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Book +++ START -->
+    <dimen name="book_cover_width_land">450dp</dimen>
+    <dimen name="book_cover_height_land">350dp</dimen>
+
+    <dimen name="book_cover_width_port">500dp</dimen>
+    <dimen name="book_cover_height_port">360dp</dimen>
+
+    <dimen name="book_title_land">56dp</dimen>
+    <dimen name="book_author_land">36dp</dimen>
+    <dimen name="book_publish_land">36dp</dimen>
+    <dimen name="book_desc_land">24dp</dimen>
+    <dimen name="book_status_land">26dp</dimen>
+
+    <dimen name="book_title_port">46dp</dimen>
+    <dimen name="book_author_port">36dp</dimen>
+    <dimen name="book_publish_port">36dp</dimen>
+    <dimen name="book_desc_port">24dp</dimen>
+    <dimen name="book_status_port">26dp</dimen>
+    <!-- Book +++ END -->
+
+    <!-- Person +++ START -->
+    <dimen name="person_avatar_width_land">450dp</dimen>
+    <dimen name="person_avatar_height_land">330dp</dimen>
+
+    <dimen name="person_avatar_width_port">500dp</dimen>
+    <dimen name="person_avatar_height_port">550dp</dimen>
+
+    <dimen name="person_title_land">46dp</dimen>
+    <dimen name="person_full_name_land">36dp</dimen>
+    <dimen name="person_birth_date_land">36dp</dimen>
+    <dimen name="person_gender_land">36dp</dimen>
+
+    <dimen name="person_title_port">46dp</dimen>
+    <dimen name="person_full_name_port">36dp</dimen>
+    <dimen name="person_birth_date_port">36dp</dimen>
+    <dimen name="person_gender_port">36dp</dimen>
+    <!-- Person +++ END -->
+
+    <!-- ListView_Book +++ START -->
+    <dimen name="bookview_cover_width_land">450dp</dimen>
+    <dimen name="bookview_cover_height_land">350dp</dimen>
+
+    <dimen name="bookview_cover_width_port">550dp</dimen>
+    <dimen name="bookview_cover_height_port">600dp</dimen>
+
+    <dimen name="bookview_title_land">56dp</dimen>
+    <dimen name="bookview_author_land">36dp</dimen>
+
+    <dimen name="bookview_title_port">46dp</dimen>
+    <dimen name="bookview_author_port">36dp</dimen>
+    <!-- ListView_Book +++ END -->
+</resources>

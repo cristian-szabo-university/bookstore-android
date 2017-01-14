@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_member_account" android:title="My Account" />
+    <item android:id="@+id/action_member_connect" android:title="Connect" />
+    <item android:id="@+id/action_member_register" android:title="Register" />
+    <item android:id="@+id/action_book_add" android:title="Add Book" />
+</menu>

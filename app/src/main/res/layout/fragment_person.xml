@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:gravity="center_horizontal">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editUsername"
+                android:hint="Username" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/editPassword"
+                android:hint="Password" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editFirstName"
+                android:hint="First Name" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editLastName"
+                android:hint="Last Name" />
+
+            <Spinner
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spnGender"
+                android:entries="@array/genderItems" />
+
+            <DatePicker
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/dpBirthDate"
+                style="@android:style/Widget.DatePicker" />
+
+            <ImageView
+                android:layout_width="215dp"
+                android:layout_height="215dp"
+                android:id="@+id/imgAvatar"
+                android:src="@mipmap/ic_person" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
