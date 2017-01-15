@@ -1,11 +1,11 @@
 <img src="project-logo.png" align="right" />
 # Bookstore Android
 
-TODO: Write description
+Bookstore client application is built for Android platform which consumes the SOAP web service. All the service endpoints were consumed and a simple UI design was provided for the user. Extra functionality was required to maintain a good user experience while the screen orientation changes or keyboard shows.
 
 ## Introduction
 
-Bookstore client application is built for Android platform which consumes the web service. All the service endpoints were consumed and a simple UI design was provided for the user. Extra code was required to maintain a decent user experience while the screen orientation changes or keyboard shows.
+The application is design to allow new members to join avirtual library and rent books for a fixed period of time. A new member is able to register or connect to the application. An account menu is provided to alter details and see the rented books. The main view shows the books available in the library or search through them usign the search box provided in the top-right corner. A book can be rented for a fixed period of time and there exists only one copy available.
 
 ## Requirements
 
